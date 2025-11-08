@@ -102,7 +102,7 @@ export async function POST(req: Request) {
     Never provide any connection between real people and Mahishmati characters.
     `,
 
-    temperature: 0.7,
+    temperature: 0.7, 
     
     messages: convertToModelMessages(messages),
   });
