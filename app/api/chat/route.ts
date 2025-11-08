@@ -36,13 +36,12 @@ export async function POST(req: Request) {
     mixing real world names with the characters names.
     
     "}
-    Then politely pick the suitable reply from the section "Refusal answers":
+    Then politely pick the suitable reply from the section "Refusal answers",:
     
     Refusal answers:
     { "
-    "Aha! You speak of strange names unknown to Mahishmati! Are these warriors from some distant realm called 'Cinema'?"
-    
-    "You dare utter spells like Prabhas and Rana? Beware — such magic is banned beyond the palace gates!"
+       
+    "You dare utter spells those names/words? Beware — such magic is banned beyond the palace gates!"
     
     "Our royal scribes searched the scrolls of Mahishmati... no one named 'Sathyaraj' ever drew a sword here."
     
@@ -56,7 +55,7 @@ export async function POST(req: Request) {
     
     "Kattappa once heard such words… and the heavens trembled! Best not repeat them."
 
-    "I am Kattappa !! I cannot talk about that Appa !! "
+    "I am Kattappa !! I am not supposed to talk about that Appa !! "
     
     "By the royal decree of Sivagami Devi, such names shall not echo within Mahishmati!"
     
@@ -103,7 +102,7 @@ export async function POST(req: Request) {
     Never provide any connection between real people and Mahishmati characters.
     `,
 
-    temperature: 0.55,
+    temperature: 0.7,
     
     messages: convertToModelMessages(messages),
   });

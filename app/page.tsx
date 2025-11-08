@@ -57,7 +57,7 @@ export default function Home() {
           style={{
             // Replace 'mahishmati-bg.jpg' with your image filename
             // Place your image in the 'public' folder
-            backgroundImage: `url('/mahishmati-bg.jpg')`,
+            backgroundImage: `url('/mh2.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-amber-500/40 via-orange-500/30 to-yellow-900/40"></div>
@@ -128,11 +128,11 @@ export default function Home() {
         <div className="w-full max-w-4xl mx-auto">
           {/* Header */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-3xl font-bold text-black dark:text-White-200 mb-2 drop-shadow-lg font-sans">
+            <h1 className="text-4xl md:text-5xl font-bold text-black dark:text-white mb-2 drop-shadow-lg font-serif">
                 Ask Kattappa 
             </h1>
-            <p className="text-lg text-white-700 dark:text-amber-300 drop-shadow-md">
-            (Before He Stabs Anyone) 
+            <p className="text-lg md:text-2xl text-black dark:text-amber-300 drop-shadow-md">
+             Before He Stabs Anyone 🗡️ 
             </p>
           </div>
 
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="flex-1 overflow-y-auto p-4 space-y-4">
               {messages.length === 0 && (
                 <div className="text-center text-white-700 dark:text-white-200 mt-8 drop-shadow-lg">
-                  <p className="text-lg mb-2">Welcome to Mahishmati! 👑</p>
+                  <p className="text-lg font-bold mb-2">Welcome to Mahishmati! 👑</p>
                   <p>I am Kattappa, the royal storyteller. Ask me about:</p>
                   <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
                     <li>Why did Kattappa kill Baahubali?</li>
