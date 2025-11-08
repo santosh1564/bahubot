@@ -37,7 +37,7 @@ export default function Home() {
     { name: 'Baahubali', emoji: '👑', image: '/Prabhas.jpg', color: 'from-amber-500 to-yellow-600' },
     { name: 'Devasena', emoji: '⚔️',image: '/Devasena.jpg', color: 'from-pink-500 to-rose-600' },
     { name: 'Bhallaladeva', emoji: '🗡️', image: '/Rana.jpg', color: 'from-red-500 to-red-800' },
-    { name: 'Kattappa', emoji: '🛡️', image: '/kattappa.jpg', color: 'from-gray-600 to-gray-800' },
+    { name: 'Kattappa', emoji: '🛡️', image: '/kattappa.jpg', color: 'from-gray-500 to-gray-800' },
     { name: 'Shivagami', emoji: '👸🏻', image: '/Ramyakrishna.jpg', color: 'from-gray-600 to-gray-800' },
   ];
 
