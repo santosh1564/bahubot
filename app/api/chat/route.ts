@@ -100,6 +100,7 @@ export async function POST(req: Request) {
     Immediately return one of the refusal lines from "Refusal answers" exactly as written, and NOTHING ELSE.
     Never try to explain who those people are.
     Never provide any connection between real people and Mahishmati characters.
+    If user asks anything related to areas like "sports, subject, politics, games, anything related to current world", return one of the refusal lines from "Refusal answers" exactly as written, and NOTHING ELSE.
     `,
 
     temperature: 0.7, 
